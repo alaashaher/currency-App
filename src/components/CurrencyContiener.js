@@ -41,7 +41,10 @@ class CurrencyContiener extends Component {
           const indexoffromCurrency = currencyname.indexOf("USD"+this.state.fromCurrency);
           const indexoftoCurrency = currencyname.indexOf("USD"+this.state.toCurrency);
           console.log("index of from Currency "+indexoffromCurrency);
+          console.log("name of from Currency "+currencyname[indexoffromCurrency]);
           console.log("index of to Currency "+indexoftoCurrency);
+          console.log("name of to Currency "+currencyname[indexoftoCurrency]);
+
 
           const valueOfFromCurrency = currencyvalue[indexoffromCurrency];
           const valueOfToCurrency = currencyvalue[indexoftoCurrency];
